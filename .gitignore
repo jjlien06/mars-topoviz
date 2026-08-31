@@ -1,0 +1,12 @@
+# Generated tensor artifacts (regenerate with the GUI or createTensor)
+Topography_tensors/
+Topography_Tensors/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store

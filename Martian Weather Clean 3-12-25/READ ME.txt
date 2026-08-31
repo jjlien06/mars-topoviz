@@ -1,0 +1,20 @@
+The File that runs the code is the Martian_GUI.py, file. Any other will not work.
+
+Connect to stormy using mobaXterm with username@stormy.engin.umich.edu -X
+
+create a virtual enviroment by using "python -m venv [enviroment name]" command in command line
+Enable virtual enviroment by using "source [enviroment name]/bin/activate" in command line
+
+Pip install Requiered Libaries below.
+
+Requiered Libaries
+
+numpy
+torch
+pickle
+pandas
+matplotlib
+tkinter
+PIL
+threading
+runpy
