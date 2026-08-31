@@ -1,4 +1,4 @@
-# Mars Topography Generator
+# Mars Topography Visualizer
 
 Turns raw **Mars Orbiter Laser Altimeter (MOLA)** elevation exports into 3D occupancy
 tensors for atmospheric modeling — pick a region on a map, choose a grid resolution,
@@ -6,6 +6,18 @@ get a voxel tensor.
 
 Built as an undergraduate researcher with the University of Michigan Climate & Space
 Sciences department (Aug 2024 – May 2025).
+
+## Demo
+
+Select a region and grid resolution from the desktop workstation:
+
+![Mars topography workstation with an interactive MOLA basemap and tensor settings](docs/mars-gui.png)
+
+The generator converts the selected elevation field into a 3D occupancy tensor:
+
+<p align="center">
+  <img src="docs/terrain-voxel-view.png" width="560" alt="Generated 3D voxel terrain rendered from Mars elevation data">
+</p>
 
 ---
 
